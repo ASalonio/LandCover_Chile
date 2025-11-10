@@ -28,7 +28,7 @@ LandCover_Chile/
 ---
 
 ## View the Full Report
-[Open interactive HTML report](./analysis/Land_Cover_Analysis.html)
+[Open interactive HTML report](./scripts/Land_Cover_Analysis.html)
 
 > *Generated automatically from `Land_Cover_Analysis.Rmd`*
 
@@ -37,7 +37,7 @@ LandCover_Chile/
 ## Reproducibility
 1. Clone the repo:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/AMID-LandCover-Chile.git
+   git clone https://github.com/ASalonio/LandCover-Chile.git
 
 ---
 
