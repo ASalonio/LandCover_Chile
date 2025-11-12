@@ -6,12 +6,13 @@
 .Rhistory
 .RData
 .Ruserdata
+knit_md.R
 
 # -------------------------------------------------
 # 2. Private source notebooks (never commit)
 # -------------------------------------------------
-scripts/*.Rmd
-scripts/*.rmd
+#scripts/*.Rmd
+#scripts/*.rmd
 
 # -------------------------------------------------
 # Archivos generados por R Markdown
