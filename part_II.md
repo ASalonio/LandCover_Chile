@@ -44,29 +44,7 @@ bound_dir <- file.path(repo_root, "data")
 out_dir   <- file.path(repo_root, "output") 
 
 dir.create(out_dir, showWarnings = FALSE, recursive = TRUE)
-
-cat(sprintf("Repo root : %s\n", repo_root))
 ```
-
-    ## Repo root : C:/Repos/LandCover_Chile
-
-``` r
-cat(sprintf("Raw data  : %s\n", raw_dir))
-```
-
-    ## Raw data  : C:/Repos/LandCover_Chile/data
-
-``` r
-cat(sprintf("Boundary  : %s\n", bound_dir))
-```
-
-    ## Boundary  : C:/Repos/LandCover_Chile/data
-
-``` r
-cat(sprintf("Output    : %s\n", out_dir))
-```
-
-    ## Output    : C:/Repos/LandCover_Chile/output
 
 ## 3. Load Reclassified Rasters and Region boundaries
 
@@ -82,7 +60,6 @@ lim_32719 <- vect(file.path(bound_dir, "lim_32719.shp"))
 
 ``` r
 class_names <- c("Water_Bare", "Native", "Plant", "Shrub", "Crop", "Grass", "Urban", "Peat")
-
 
 #Resample to 1999 template
 reclass_cover_2009_a <- resample(reclass_cover_2009, reclass_cover_1999, method = "near")

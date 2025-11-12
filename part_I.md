@@ -31,31 +31,20 @@ bound_dir <- file.path(repo_root, "data")
 out_dir   <- file.path(repo_root, "output") 
 
 dir.create(out_dir, showWarnings = FALSE, recursive = TRUE)
-
-cat(sprintf("Repo root : %s\n", repo_root))
 ```
-
-    ## Repo root : C:/Repos/LandCover_Chile
-
-``` r
-cat(sprintf("Raw data  : %s\n", raw_dir))
-```
-
-    ## Raw data  : C:/Repos/LandCover_Chile/data
-
-``` r
-cat(sprintf("Boundary  : %s\n", bound_dir))
-```
-
-    ## Boundary  : C:/Repos/LandCover_Chile/data
-
-``` r
-cat(sprintf("Output    : %s\n", out_dir))
-```
-
-    ## Output    : C:/Repos/LandCover_Chile/output
 
 ## 3. Load Original Rasters
+
+``` r
+cover_1999 <- rast(file.path(raw_dir, "Land_cover_1999_200m.tif"))
+cover_2009 <- rast(file.path(raw_dir, "Land_cover_2009_200m.tif"))
+cover_2018 <- rast(file.path(raw_dir, "Land_cover_2018_200m.tif"))
+
+# Convert to factor (required for classify())
+cover_1999_f <- as.factor(cover_1999)
+cover_2009_f <- as.factor(cover_2009)
+cover_2018_f <- as.factor(cover_2018)
+```
 
 ## 4. Original 16-Class Composition
 
@@ -132,7 +121,7 @@ ggplot(top_3_land_cover, aes(x = year, y = percentage, fill = original_class)) +
   theme_minimal()
 ```
 
-![](C:/Repos/LandCover_Chile/part_I_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
+![](C:/Repos/LandCover_Chile/part_I_files/figure-gfm/unnamed-chunk-6-1.png)<!-- -->
 
 ### Insight (km²‑scaled)
 
