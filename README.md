@@ -28,7 +28,8 @@ LandCover_Chile/
 ---
 
 ## View the Full Report
-[Open interactive HTML report](./scripts/Land_Cover_Analysis.html)
+[Open interactive Land Cover Reclasification HTML report](./part_I.html)
+[Open interactive Land Cover Analysis HTML report](./part_II.html)
 
 > *Generated automatically from `Land_Cover_Analysis.Rmd`*
 
