@@ -7,13 +7,12 @@ Using ESA CCI Land Cover maps (200 m resolution).
 
 ## Project Structure
 LandCover_Chile/
-├── scripts/
-│   ├── Land_Cover_Reclass.R        → Reclassifies 16 → 8 functional classes
-│   └── Land_Cover_Analysis.Rmd     → Full analysis + interactive visualizations
-├── data/                           → Raw and processed geospatial data
-├── output/
-│   └── Plots/LULC/                 → Maps, tables, Sankey diagrams
-└── README.md
+├─ part_I.ipynb
+├─ part_II.ipynb
+├─ sankeys
+│ ├─ sankey_all.html
+│ └─ sankey_top15.html
+└─ README.md
 
 
 ---
@@ -26,12 +25,6 @@ LandCover_Chile/
 - **Fully reproducible** workflow
 
 ---
-
-## View the Full Report
-[Open interactive Land Cover Reclasification HTML report](./part_I.html)
-[Open interactive Land Cover Analysis HTML report](./part_II.html)
-
-> *Generated automatically from `Land_Cover_Analysis.Rmd`*
 
 ---
 
