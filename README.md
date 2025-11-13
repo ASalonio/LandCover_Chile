@@ -68,6 +68,7 @@ Study area: Southern Chile (custom polygon)
 ## Acknowledgments
 
 Universidad Católica de la Santísima Concepción, UCSC
+Consejo Superior de Investigaciones Científicas, CSIC
 
 ## Author
 
