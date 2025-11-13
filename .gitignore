@@ -1,27 +1,27 @@
 # -------------------------------------------------
-# 1. R‑project artefacts
+# 1. R project artefacts
 # -------------------------------------------------
 *.Rproj
 .Rproj.user/
 .Rhistory
 .RData
 .Ruserdata
-knit_md.R
 
 # -------------------------------------------------
 # 2. Private source notebooks (never commit)
 # -------------------------------------------------
-#scripts/*.Rmd
-#scripts/*.rmd
+scripts/*.Rmd
+scripts/*.rmd
+scripts/*.qmd
 
 # -------------------------------------------------
-# Archivos generados por R Markdown
+# 3. Archivos generados por R Markdown
 # -------------------------------------------------
-#*_files/
-*.html
-*.pdf
+*_files/
+*.md
+output/
 
 # -------------------------------------------------
-# 3. Large raster data (optional – keep if <100 MB)
+# 4. Large raster data (optional – keep if <100 MB)
 # -------------------------------------------------
-# data/**/*.tif
+data/**/*.tif
