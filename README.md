@@ -1,6 +1,7 @@
 # LandCover-Chile
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![DOI](https://zenodo.org/badge/1093726202.svg)](https://doi.org/10.5281/zenodo.18609755)
 
 **Historical Land-Cover Change Analysis (1999–2018) in Chile**  
 Using ESA CCI Land Cover maps (200 m resolution).
