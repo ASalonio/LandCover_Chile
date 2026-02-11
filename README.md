@@ -8,7 +8,7 @@ Using ESA CCI Land Cover maps (200 m resolution).
 ---
 
 **Project Overview**
-This repository contains an R-based analysis of land cover composition and changes in the Centro-Sur region of Chile (from north to south: Ñuble, Bio-Bio) using ESA CCI land-cover maps at 200m resolution. The analysis covers the period from 1999 to 2018, focusing on original 16-class compositions, reclassification into 8 functional classes, and detailed transition dynamics.
+This repository contains an R-based analysis of land cover composition and changes in the Centro-Sur region of Chile (from north to south: Ñuble, Bio-Bio, and La Araucanía) using ESA CCI land-cover maps at 200m resolution. The analysis covers the period from 1999 to 2018, focusing on original 16-class compositions, reclassification into 8 functional classes, and detailed transition dynamics.
 
 The project is split into two Jupyter notebooks (in R kernel format):
 
