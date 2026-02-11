@@ -73,7 +73,9 @@ Consejo Superior de Investigaciones Científicas, CSIC
 
 ## Author
 
-Augusto Salonio
+Augusto Pablo Salonio Carbó
+ORCID: https://orcid.org/0009-0005-9460-0764
+DOI: https://doi.org/10.5281/zenodo.18609755
 Date: 2025-11-11
 
 For questions or contributions, open an issue or pull request.
